@@ -8,7 +8,7 @@ import 'screens/portfolio_screen.dart';
 import 'screens/create_portfolio_screen.dart';
 import 'screens/about_screen.dart';
 import 'screens/price_graph_screen.dart';
-import 'screens/home_screen.dart'; // Import the new HomeScreen
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(MyApp());

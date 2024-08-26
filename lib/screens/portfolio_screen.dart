@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/auth_provider.dart';
-import '../providers/price_provider.dart';  // Import the PriceProvider
+import '../providers/price_provider.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'create_portfolio_screen.dart';

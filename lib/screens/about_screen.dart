@@ -53,7 +53,7 @@ class AboutScreen extends StatelessWidget {
               ),
               SizedBox(height: 16),
               Text(
-                'Thank you for considering my application!',
+                'Thank you for considering my application! Source code can be found at https://github.com/j1441/',
                 style: TextStyle(fontSize: 16, color: Colors.white),
               ),
             ],

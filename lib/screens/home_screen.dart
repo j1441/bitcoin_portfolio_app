@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Image.asset(
-              'assets/bitcoin.png', // Make sure to add the Bitcoin image to your assets folder
+              'assets/bitcoin.png',
               height: 150,
             ),
             SizedBox(height: 20),
@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
                 Navigator.pushNamed(context, '/about');
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blueAccent, // Updated: Button color
+                backgroundColor: Colors.blueAccent,
                 padding: EdgeInsets.symmetric(vertical: 20.0), // Increase vertical padding
                 textStyle: TextStyle(
                   fontSize: 20, // Increase font size
